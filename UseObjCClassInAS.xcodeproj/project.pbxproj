@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92E2E271A4CD108005EF28D /* subController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92E2E261A4CD108005EF28D /* subController.m */; };
 		B93B62EE1A4C203F00F6E60D /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93B62ED1A4C203E00F6E60D /* AppleScriptObjC.framework */; };
 		B93B62F31A4C203F00F6E60D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B93B62F21A4C203F00F6E60D /* main.m */; };
 		B93B62F51A4C203F00F6E60D /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = B93B62F41A4C203F00F6E60D /* AppDelegate.applescript */; };
 		B93B62F71A4C203F00F6E60D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93B62F61A4C203F00F6E60D /* Images.xcassets */; };
 		B93B62FA1A4C203F00F6E60D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B93B62F81A4C203F00F6E60D /* MainMenu.xib */; };
+		FC12694A1A4C684E00886492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1269491A4C684E00886492 /* Foundation.framework */; };
+		FC12694E1A4C68AF00886492 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1269471A4C683900886492 /* AppKit.framework */; };
+		FC12694F1A4C68B500886492 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC12694B1A4C685A00886492 /* CoreData.framework */; };
+		FC1269501A4C68C000886492 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1269451A4C67E500886492 /* Cocoa.framework */; };
+		FC1269521A4C6B5400886492 /* Controller.applescript in Sources */ = {isa = PBXBuildFile; fileRef = FC1269511A4C6B5400886492 /* Controller.applescript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B92E2E251A4CD108005EF28D /* subController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subController.h; sourceTree = "<group>"; };
+		B92E2E261A4CD108005EF28D /* subController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subController.m; sourceTree = "<group>"; };
 		B93B62EA1A4C203E00F6E60D /* UseObjCClassInAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseObjCClassInAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93B62ED1A4C203E00F6E60D /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		B93B62F11A4C203F00F6E60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B93B62F21A4C203F00F6E60D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B93B62F41A4C203F00F6E60D /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		B93B62F61A4C203F00F6E60D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B93B62F91A4C203F00F6E60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B93B63001A4C206C00F6E60D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FC1269451A4C67E500886492 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FC1269471A4C683900886492 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FC1269491A4C684E00886492 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC12694B1A4C685A00886492 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC1269511A4C6B5400886492 /* Controller.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = Controller.applescript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1269501A4C68C000886492 /* Cocoa.framework in Frameworks */,
+				FC12694F1A4C68B500886492 /* CoreData.framework in Frameworks */,
+				FC12694E1A4C68AF00886492 /* AppKit.framework in Frameworks */,
+				FC12694A1A4C684E00886492 /* Foundation.framework in Frameworks */,
 				B93B62EE1A4C203F00F6E60D /* AppleScriptObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +73,10 @@
 		B93B62EC1A4C203E00F6E60D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC12694B1A4C685A00886492 /* CoreData.framework */,
+				FC1269471A4C683900886492 /* AppKit.framework */,
+				FC1269451A4C67E500886492 /* Cocoa.framework */,
+				FC1269491A4C684E00886492 /* Foundation.framework */,
 				B93B62ED1A4C203E00F6E60D /* AppleScriptObjC.framework */,
 			);
 			name = Frameworks;
@@ -65,8 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				B93B62F41A4C203F00F6E60D /* AppDelegate.applescript */,
-				B93B62F61A4C203F00F6E60D /* Images.xcassets */,
+				FC1269511A4C6B5400886492 /* Controller.applescript */,
+				B92E2E251A4CD108005EF28D /* subController.h */,
+				B92E2E261A4CD108005EF28D /* subController.m */,
 				B93B62F81A4C203F00F6E60D /* MainMenu.xib */,
+				B93B62F61A4C203F00F6E60D /* Images.xcassets */,
 				B93B62F01A4C203F00F6E60D /* Supporting Files */,
 			);
 			path = UseObjCClassInAS;
@@ -121,7 +145,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = B93B62E11A4C203E00F6E60D;
 			productRefGroup = B93B62EB1A4C203E00F6E60D /* Products */;
@@ -152,6 +175,8 @@
 			files = (
 				B93B62F51A4C203F00F6E60D /* AppDelegate.applescript in Sources */,
 				B93B62F31A4C203F00F6E60D /* main.m in Sources */,
+				FC1269521A4C6B5400886492 /* Controller.applescript in Sources */,
+				B92E2E271A4CD108005EF28D /* subController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +186,7 @@
 		B93B62F81A4C203F00F6E60D /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B93B62F91A4C203F00F6E60D /* Base */,
+				B93B63001A4C206C00F6E60D /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -176,7 +201,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -203,10 +228,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -217,7 +242,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -239,9 +264,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
@@ -252,7 +277,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UseObjCClassInAS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -263,7 +290,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UseObjCClassInAS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
@@ -286,6 +315,7 @@
 				B93B62FF1A4C203F00F6E60D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
