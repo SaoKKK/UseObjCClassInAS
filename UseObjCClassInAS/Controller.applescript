@@ -11,11 +11,12 @@ script Controller
     
     -- obj-Cのクラスメソッドを呼び出し
     on callObjCClassMethod_(sender)
-        log("aaa")
+        current application's subController's objCClassMethod()
     end callObjCClassMethod_
     
     -- obj-Cのインスタンスメソッドを呼び出し
     on callObjCInstanceMethod_(sender)
-        log("bbb")
+        set A to (mySubClass's objCInstanceMethod) as text
+        textField's setStringValue_(A)
     end callObjCInstanceMethod_
 end script
